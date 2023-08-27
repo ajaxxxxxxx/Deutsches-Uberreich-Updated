@@ -1854,13 +1854,13 @@ focus = {
 							target = FRA
 						}
 					28 = {
-						add_claim_by = UBR 
+						add_claim_by = GRU 
 						}
 						8 = {
-						add_claim_by = UBR 
+						add_claim_by = GRU 
 						}
 					779 = {
-						add_claim_by = UBR 
+						add_claim_by = GRU 
 						}
 				}
 		prerequisite = { focus = UBR_NMDVP_allignment  }
@@ -1997,13 +1997,13 @@ focus = {
 					is_core_of = "AUS"
 					is_not_claim_or_core_of_ROOT = yes
 				}
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			151 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			3 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			}
 		}
@@ -2021,58 +2021,58 @@ focus = {
 			custom_effect_tooltip = UBR_tt_pan_germanism_two_decisions
 			hidden_effect = {
 			866 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			36 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			7 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			35 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			978 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			979 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			6 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			34 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			741 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			8 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			99 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			37 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			100 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1146 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1147 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			28 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			779 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			337 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			}
 		}
@@ -2112,34 +2112,34 @@ focus = {
 					is_core_of = "CZE"
 					is_not_claim_or_core_of_ROOT = yes
 				}
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1138 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1124 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			88 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1125 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1127 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1126 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			91 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			1140 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			89 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			#
 			every_state = {
@@ -2147,10 +2147,10 @@ focus = {
 					is_core_of = "POL"
 					is_not_claim_or_core_of_ROOT = yes
 				}
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			655 = {
-				add_claim_by = UBR 
+				add_claim_by = GRU 
 			}
 			}
 		}		

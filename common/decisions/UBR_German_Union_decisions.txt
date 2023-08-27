@@ -5391,7 +5391,7 @@ UBR_expansion_three_volksland_hypoborea = {
 				create_VKB = yes
 				create_field_marshal = {
 					name = "Heinrich Himmler"
-					picture = "gfx/leaders/UBR/Portrait_VKB_Heinrich_Himmler.png"
+					picture = "gfx/leaders/UBR/Portrait_UBR_Heinrich_Himmler.png"
 					traits = { trickster panzer_leader war_hero RR_OFFICER }
 					skill = 4
 
@@ -5399,6 +5399,15 @@ UBR_expansion_three_volksland_hypoborea = {
 					defense_skill = 2
 					planning_skill = 2
 					logistics_skill = 4
+					
+				create_country_leader = {
+					name = "Zivilverwaltung"
+					desc = "POLITICS_Eichmann_DESC"
+					picture = "gfx/leaders/UBR/Portrait_UBR_Zivilverwaltung.png"
+					expire = "1965.1.1"
+					ideology = natpop_based_subtype
+					traits = { 
+					}
 				}
 				hidden_effect = {
 					VKB = {
