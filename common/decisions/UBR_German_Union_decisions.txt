@@ -5399,6 +5399,7 @@ UBR_expansion_three_volksland_hypoborea = {
 					defense_skill = 2
 					planning_skill = 2
 					logistics_skill = 4
+				}
 					
 				create_country_leader = {
 					name = "Zivilverwaltung"
