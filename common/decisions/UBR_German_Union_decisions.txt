@@ -4783,6 +4783,7 @@ UBR_volksreichskommissariat_decisions = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				HYP = {	country_event = uberreichmisc.900 }
 					if = {
@@ -5265,6 +5266,7 @@ UBR_expansion_three_volksland_hypoborea = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VKR = {	country_event = uberreichmisc.200 }
 				VKR = {	country_event = { id = uberreichmisc.201 days = 2 } }
@@ -5333,6 +5335,7 @@ UBR_expansion_three_volksland_hypoborea = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VKK = {	country_event = uberreichmisc.300 }
 				VKK = {	country_event = { id = uberreichmisc.301 days = 2 } }
@@ -5388,7 +5391,7 @@ UBR_expansion_three_volksland_hypoborea = {
 			}
 		
 			complete_effect = {
-				create_VKB = yes
+				release_puppet = VKB
 				create_field_marshal = {
 					name = "Heinrich Himmler"
 					picture = "gfx/leaders/UBR/Portrait_UBR_Heinrich_Himmler.png"
@@ -5401,15 +5404,7 @@ UBR_expansion_three_volksland_hypoborea = {
 					logistics_skill = 4
 				}
 					
-				create_country_leader = {
-					name = "Zivilverwaltung"
-					desc = "POLITICS_Eichmann_DESC"
-					picture = "gfx/leaders/UBR/Portrait_UBR_Zivilverwaltung.png"
-					expire = "1965.1.1"
-					ideology = natpop_based_subtype
-					traits = { 
-					}
-				}
+
 				hidden_effect = {
 					VKB = {
 						transfer_state = 1091
@@ -5423,6 +5418,7 @@ UBR_expansion_three_volksland_hypoborea = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VKB = {	country_event = uberreichmisc.400 }
 				if = {
@@ -5445,7 +5441,7 @@ UBR_expansion_three_volksland_hypoborea = {
 				set_autonomy = { target = VKB autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKB_established
 				VKB = { set_country_flag = IS_VKB }
-				VKB = { inherit_technology = UBR }
+				VKB = { inherit_technology = GRU }
 			}
 	}
 	
@@ -5496,6 +5492,7 @@ UBR_expansion_three_volksland_hypoborea = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VKM = {	country_event = uberreichmisc.500 }
 				if = {
@@ -7498,6 +7495,7 @@ UBR_beyond_lebensraum_decisions = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VSJ = {	country_event = uberreichmisc.950 }
 				if = {
@@ -7823,6 +7821,7 @@ UBR_expansion_two_volksstaat_Judea = {
 						amount = 100
 						}
 						add_manpower = 40000
+						set_country_leader_ideology = natpop_based_subtype
 					}
 				VST = {	country_event = uberreichmisc.951 }
 				if = {
