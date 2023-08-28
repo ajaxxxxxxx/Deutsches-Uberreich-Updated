@@ -5391,7 +5391,11 @@ UBR_expansion_three_volksland_hypoborea = {
 			}
 		
 			complete_effect = {
-				release_puppet = VKB
+				release_autonomy = {
+					target = VKB
+					autonomy_state = RM_Volkskommissariat
+					freedom_level = 0.0
+				}
 				create_field_marshal = {
 					name = "Heinrich Himmler"
 					picture = "gfx/leaders/UBR/Portrait_UBR_Heinrich_Himmler.png"
@@ -5419,6 +5423,12 @@ UBR_expansion_three_volksland_hypoborea = {
 						}
 						add_manpower = 40000
 						set_country_leader_ideology = natpop_based_subtype
+						set_autonomy = {
+							target = VKB
+							autonomy_state = RM_Volkskommissariat
+							end_wars = no
+							end_civil_wars = no
+						}
 					}
 				VKB = {	country_event = uberreichmisc.400 }
 				if = {

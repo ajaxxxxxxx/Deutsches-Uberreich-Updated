@@ -15,9 +15,5 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/based_group.png"
 	}
 	
-	spriteType = {
-		name = "GFX_autonomy_vk"
-		textureFile = "gfx/interface/autonomy/autonomy_vk_icon.dds"
-	}
 
 }

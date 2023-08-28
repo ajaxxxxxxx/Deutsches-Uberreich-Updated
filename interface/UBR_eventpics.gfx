@@ -99,4 +99,9 @@ spriteTypes = {
 		name = "GFX_report_event_arctic_saucer"
 		texturefile = "gfx/event_pictures/arctic_saucer.png"
 	}
+	
+	spriteType = {
+		name = "GFX_report_event_UBR_hitler_portraits"
+		texturefile = "gfx/event_pictures/report_event_UBR_hitler_portraits.png"
+	}
 }

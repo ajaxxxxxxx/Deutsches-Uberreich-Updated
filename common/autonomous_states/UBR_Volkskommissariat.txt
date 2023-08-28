@@ -50,7 +50,7 @@ autonomy_state = {
 		}
 		overlord = { 
 			AND = {
-				tag = UBR 
+				tag = GRU 
 				OR = {
 					has_country_leader = { name = "Adolf Hitler" ruling_only = yes }
 					
