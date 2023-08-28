@@ -240,34 +240,6 @@ UBR_antigrav_craft = {
 		}
 }
 
-	UBR_Hitler_Picker = {
-		icon = GFX_decision_portraits_picker
-		allowed = {
-			OR = {
-				tag = UBR
-				tag = GRU
-			}
-		}
-		visible = {
-			has_country_leader = {
-				name = "Adolf Hitler"
-				ruling_only = yes
-			}
-			is_ai = no
-		}
-		cost = 0
-		fire_only_once = no
-		days_re_enable = 1
-		ai_will_do = {
-			factor = 0
-		}
-		
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision UBR_Hitler_Picker"
-			country_event = portrait_picker.88
-		}
-
-	}
 
 UBR_to_the_moon = {
 		icon = generic_operation
@@ -298,6 +270,37 @@ UBR_to_the_moon = {
 			UBR = {country_event = { id =  uberreich.17}}
 			}
 		}
+    }
 }
+
+political_actions = {
+	UBR_Hitler_Picker = {
+		icon = GFX_decision_portraits_picker
+		allowed = {
+			OR = {
+				tag = UBR
+				tag = GRU
+			}
+		}
+		visible = {
+			has_country_leader = {
+				name = "Adolf Hitler"
+				ruling_only = yes
+			}
+			is_ai = no
+		}
+		cost = 0
+		fire_only_once = no
+		days_re_enable = 1
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision UBR_Hitler_Picker"
+			country_event = portrait_picker.88
+		}
+
+	}
 
 }
