@@ -5252,7 +5252,11 @@ UBR_expansion_three_volksland_hypoborea = {
 			}
 		
 			complete_effect = {
-				create_VKR = yes
+				release_autonomy = {
+					target = VKR
+					autonomy_state = RM_Volkskommissariat
+					freedom_level = 0.0
+				}
 				hidden_effect = {
 					VKR = {
 						transfer_state = 202
@@ -5267,6 +5271,12 @@ UBR_expansion_three_volksland_hypoborea = {
 						}
 						add_manpower = 40000
 						set_country_leader_ideology = natpop_based_subtype
+						set_autonomy = {
+							target = VKR
+							autonomy_state = RM_Volkskommissariat
+							end_wars = no
+							end_civil_wars = no
+						}
 					}
 				VKR = {	country_event = uberreichmisc.200 }
 				VKR = {	country_event = { id = uberreichmisc.201 days = 2 } }
@@ -5290,7 +5300,7 @@ UBR_expansion_three_volksland_hypoborea = {
 				set_autonomy = { target = VKR autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKR_established
 				VKR = { set_country_flag = IS_VKR }
-				VKR = { inherit_technology = UBR }
+				VKR = { inherit_technology = GRU }
 			}
 	}
 	
@@ -5321,7 +5331,11 @@ UBR_expansion_three_volksland_hypoborea = {
 			}
 		
 			complete_effect = {
-				create_VKK = yes
+				release_autonomy = {
+					target = VKK
+					autonomy_state = RM_Volkskommissariat
+					freedom_level = 0.0
+				}
 				hidden_effect = {
 					VKK = {
 						transfer_state = 990
@@ -5489,7 +5503,11 @@ UBR_expansion_three_volksland_hypoborea = {
 		
 			complete_effect = {
 				hidden_effect = {
-					create_VKM = yes
+				release_autonomy = {
+					target = VKM
+					autonomy_state = RM_Volkskommissariat
+					freedom_level = 0.0
+				}
 					VKM = {
 						transfer_state = 219
 						

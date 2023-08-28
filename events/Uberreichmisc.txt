@@ -25,7 +25,7 @@ country_event = { # CEO of Trollarch
 		add_stability = -0.05
 		  create_corps_commander = {
 	     name = "Oskar Dirlewanger"
-	     portrait_path = "gfx/leaders/UBR/Portrait_UBR_Oskar_Dirlewanger.dds"
+	     portrait_path = "gfx/leaders/UBR/Portrait_UBR_Oskar_Dirlewanger.png"
 	      traits = {
 		  harsh_leader SS_OFFICER
 	       }

@@ -42,11 +42,11 @@ autonomy_state = {
 		OR = {
 
 			tag = VSJ
-			tag = VSP
-			tag = VKB
 			tag = VST
-			tag = VSM
-			tag = VSR
+			tag = VKB
+			tag = VKK
+			tag = VKM
+			tag = VKR
 		}
 		overlord = { 
 			AND = {

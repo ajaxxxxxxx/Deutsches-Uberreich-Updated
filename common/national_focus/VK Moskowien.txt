@@ -27,7 +27,7 @@ focus = {
 		}
 		
 		available = {
-			is_puppet_of = UBR
+			is_puppet_of = GRU
 
 
 		}
@@ -65,7 +65,7 @@ focus = {
 		}
 		
 		available = {
-			is_puppet_of = UBR
+			is_puppet_of = GRU
 
 
 		}
@@ -102,7 +102,7 @@ focus = {
 		}
 		
 		available = {
-			is_puppet_of = UBR
+			is_puppet_of = GRU
 
 
 		}
@@ -151,7 +151,7 @@ focus = {
 		}
 		
 		available = {
-			is_puppet_of = UBR
+			is_puppet_of = GRU
 
 
 		}
@@ -189,7 +189,7 @@ focus = {
 		}
 		
 		available = {
-			is_puppet_of = UBR
+			is_puppet_of = GRU
 
 
 		}
