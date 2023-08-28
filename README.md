@@ -1,4 +1,4 @@
-# Deutsches-Überreich [v1.5]
+# Deutsches-Überreich [v1.6]
 
 A submod for Kaiserredux being updated by me.
 
